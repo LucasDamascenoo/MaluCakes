@@ -21,6 +21,11 @@ body {
   width: 150px;
 }
 
+.main-left__logo {
+  position: relative;
+  left: 52%;
+}
+
 .header-container__icons img {
   width: 40px;
   height: 40px;
@@ -50,7 +55,6 @@ main {
 
 .main-right {
   width: 60%;
-
   height: 100%;
 }
 .main-right img {
@@ -58,6 +62,36 @@ main {
   height: 100%;
   object-fit: cover;
 }
+
+.main-left__content {
+  padding: 3.25rem 5rem;
+  text-align: center;
+}
+.main-left__content p {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 0;
+  color: #174261;
+}
+
+.button-primary {
+  border-radius: 100px;
+  background-color: #ff3a54;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+}
+
+.button {
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  font-size: 1.975rem;
+  margin-top: 70px;
+}
+
+/* menu  */
+
 .menu-content {
   text-align: center;
 }
@@ -72,4 +106,88 @@ main {
   color: #00c9c1;
   font-weight: 400;
   font-size: 4rem;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+}
+.card-img img {
+  border: 1px solid #00c9c1;
+  width: 15%;
+  height: 15%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* footer */
+
+footer {
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top--left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-top--left,
+.footer-top--right p {
+  font-weight: 700;
+  color: #161616;
+}
+
+.footer-top--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.footer-top--right input {
+  width: 250px;
+  height: 40px;
+  padding: 0.75rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.footer-top--right button {
+  width: 90px;
+  height: 40px;
+  border: 1px solid #eee;
+  background: #5ca720;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  border: 2px solid #eee;
+}
+
+.footer-bottom--left,
+.footer-bottom--right {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.footer-bottom--left,
+.footer-bottom--right img {
+  height: 20px;
 }
